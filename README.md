@@ -1,4 +1,5 @@
-# didactic-bank-application
+# didactic-bank-application 
+
 
 A simple banking system written in Java used to teach object-oriented programming and best coding practices. It is a three-layered application, with: (i) a UI layer, with a command line interface and a graphical interface (in Java Swing); (ii) a business layer; and (iii) a data layer, implemented in memory. 
 
