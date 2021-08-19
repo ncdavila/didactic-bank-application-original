@@ -15,7 +15,7 @@ import bank.data.Database;
 import bank.ui.BankInterface;
 
 /**
- * @author Ingrid Nunes
+ * @author Ingrid Nunes!
  * 
  */
 public abstract class Bank {
