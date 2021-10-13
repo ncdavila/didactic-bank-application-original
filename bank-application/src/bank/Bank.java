@@ -27,7 +27,7 @@ public abstract class Bank {
 		PropertyConfigurator.configure(Bank.class
 				.getResource(PROPERTIES_FILE_LOG4J));
 
-		// Comentário de teste	
+		// Comentário de teste para simular correção.	 
 		Bank bank = null;
 		if (args != null && args.length > 0 && TEXT_FLAG.equals(args[0])) {
 			bank = new BankText();
