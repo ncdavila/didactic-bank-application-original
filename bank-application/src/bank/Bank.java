@@ -27,13 +27,13 @@ public abstract class Bank {
 		PropertyConfigurator.configure(Bank.class
 				.getResource(PROPERTIES_FILE_LOG4J));
 
-		Bank bank = null;
+		Bank banco = null;
 		if (args != null && args.length > 0 && TEXT_FLAG.equals(args[0])) {
-			bank = new BankText();
+			banco = new BankText();
 		} else {
-			bank = new BankGraphic();
+			banco = new BankGraphic();
 		}
-		bank.showUI();
+		banco.showUI();
 	}
 
 	protected final List<BankInterface> bankInterfaces;
